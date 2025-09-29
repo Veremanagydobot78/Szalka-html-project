@@ -1,5 +1,6 @@
 section, nav, article, header, footer {
     border: 1px dashed black;
+    text-align: center;
 }
 
 header {
@@ -15,6 +16,7 @@ nav {
     width: 10%;
     height: 1100px;
     margin: 0 30px 0 30px;
+    background-color: rgba(255, 255, 255, 1);
 }
 
 section {
@@ -22,6 +24,7 @@ section {
     width: 89%;
     height: 1100px;
     max-width: 800px;
+        background-color: rgba(255, 255, 255, 0.5);
 }
 
 article {
@@ -31,6 +34,7 @@ article {
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
+    background-color: white;
 }
 
 footer {
@@ -38,6 +42,7 @@ footer {
     height: 100px;
     margin: 10px 0 10px 0;
     float: left;
+    background-color: white;
 }
 
 .container {
@@ -68,4 +73,8 @@ footer {
 
 body {
     background-image: url('../images/valami\ masik.png');
+}
+
+#menu {
+    
 }
