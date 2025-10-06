@@ -75,6 +75,37 @@ body {
     background-image: url('../images/valami\ masik.png');
 }
 
-#menu {
-    
+#menu li {
+    list-style-type: none;
+
+}
+
+#menu ul li a 
+{
+    text-decoration: none;
+    color: black;
+    border: solid 1px black;
+    padding: 3px;
+    display: block;
+    text-align: center;
+    background-color: #ccc;
+}
+
+#menu ul li a:hover 
+{
+    background-color: purple;
+    color:white
+}
+
+#menu ul ul a
+{
+    position: relative;
+    bottom: 20px;
+    left: 100%;
+    display: none;
+}
+
+#menu ul li:hover > ul a
+{
+    display: block;
 }
