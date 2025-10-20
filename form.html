@@ -45,17 +45,20 @@
                 <form action="">
                     <fieldset>
                         <legend>Megrendelo adatai</legend>
-                        <p><label for="">Nev: <input type="text" name="nev" id="nev"></label>
-                        <small>Vezeteknev Keresztnev</small>
+                        <p><label for="nev">Nev: <input type="text" name="nev" id="nev"
+                                    placeholder="nev megadasa..." required></label>
+                            <small>Vezeteknev Keresztnev</small>
                         </p>
                         <p>
-                            <label for="">Telefon: <input type="tel" name="telefon" id="telefon" size="17"></label>
+                            <label for="telefon">Telefon: <input type="tel" name="telefon" id="telefon" size="17"
+                                    placeholder="telefonszam megadasa" required></label>
                         </p>
+                        <p><label for="cim">Kiszallitasi cim: <input type="text" name="cim" id="cim" placeholder="ide kerem..." required></label></p>
                     </fieldset>
                     <fieldset>
                         <legend>A pizza merete</legend>
                         <p><label for=""><input type="radio" name="meret" value="kicsi" checked>kicsi</label></p>
-                        <p><label for=""><input type="radio" name="meret" value="nagy">nagy</label></p>
+                        <p><label for=""><input type="radio" name="meret" value="nagy" >nagy</label></p>
                     </fieldset>
                     <fieldset>
                         <legend>Feltetek</legend>
@@ -63,6 +66,12 @@
                         <p><label for=""><input type="checkbox" name="feltet2" value="sajt">sajt</label></p>
                         <p><label for=""><input type="checkbox" name="feltet3" value="gomba">gomba</label></p>
                     </fieldset>
+                    <p><label for="">Mennyiség: <input type="number" name="mennyiseg"></label></p>
+                    <p><label for="">Kert kiszallitasi ido: <input type="date" name="kiszallitas"></label></p>
+                    <p><label for="egyeb">Egyeb kivansagok: <br><textarea name="egyeb" id="egyeb"></textarea></label>
+                    </p>
+                    <button type="reset">Alaphelyzet</button>
+                    <button type="submit">Elkuldes</button>
                 </form>
             </article>
         </section>
